@@ -1,11 +1,12 @@
-# Super resolution undersampled MRI
-
+# Deep learning based super resolution accelerated MRI reconstruction
+## project description:
+in this class project, we are to show super-resolution implementation to help MRI reconstruction using both supervised and unsupervised learning. In phase 1, we apply model-based residual CNN MRI reconstruction framework followed by [SRResNet](https://arxiv.org/abs/1501.00092) upscaling block in a supervised fashion. Next, we include additonal perceptual loss from a feature mapping network with the existing pixelwise loss term to recover the photo-realistic textures from heavily under-sampled MRi acquisitions. The feature mapping network is trained with patches from the training samples contaminated with dofferent level of noise representations.
 
 ### File description
 
-`modl_training_pipeline.ipynb` : MoDL network for training and testing low resolution undersampled MRI to dealiased and denoised low resolution
+`modl_training_pipeline.ipynb` : MoDL network for training and testing low resolution undersampled MRI to dealiased and denoised high resolution
 
-`GAN superresolution Phase 2.ipynb` : SR Resnet model for training and testing low resolution MRI to high resolution
+`GAN superresolution Phase 3.ipynb` : SR Resnet model for training and testing low resolution MRI to high resolution
 
 Link for the dataset to run MoDL: https://iowa-my.sharepoint.com/:f:/g/personal/moalam_uiowa_edu/EtTkM9rA1TtApSuhJ96eJTEBVY6je8vuf4elCQBLCiqVRQ?e=VxrHrO
 
