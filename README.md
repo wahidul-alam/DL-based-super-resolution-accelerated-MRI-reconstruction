@@ -2,7 +2,8 @@
 ### project description:
 in this class project, we are to show super-resolution implementation to help MRI reconstruction using both supervised and unsupervised learning. In phase 1, we apply model-based residual CNN MRI reconstruction framework followed by [SRResNet](https://arxiv.org/abs/1501.00092) upscaling block in a supervised fashion. Next, we include additonal perceptual loss from a feature mapping network with the existing pixelwise loss term to recover the photo-realistic textures from heavily under-sampled MRi acquisitions. The feature mapping network is trained with patches from the training samples contaminated with dofferent level of noise representations.
 
-### Presentation:
+### proposal and Presentation:
+prblem definition: [project proposal](https://github.com/Wahid-Alam/DL-based-super-resolution-accelerated-MRI-reconstruction/blob/main/project_proposal.pdf) <br/>
 phase 1: [phase_1_supervised_learning](https://github.com/Wahid-Alam/DL-based-super-resolution-accelerated-MRI-reconstruction/blob/main/phase_1_supervised_learning.pdf) <br/>
 phase 2: [phase_2_unsupervised_learning](https://github.com/Wahid-Alam/DL-based-super-resolution-accelerated-MRI-reconstruction/blob/main/phase_2_unsupervised_learning.pdf)
 
